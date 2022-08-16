@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Registerform = () => {
+const Loginform = () => {
   const [input, setinput] = useState("");
 
   const handleChange = (e) => {
@@ -13,7 +13,7 @@ const Registerform = () => {
 
   return (
     <div>
-      <h1>REGISTER FORM</h1>
+      <h1>LOGIN FORM</h1>
       <form>
         <div>
           <label>NAME</label>
@@ -59,4 +59,4 @@ const Registerform = () => {
   );
 };
 
-export default Registerform;
+export default Loginform;
